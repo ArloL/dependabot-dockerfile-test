@@ -1,0 +1,6 @@
+### Docker ###
+
+Dockerfile
+.dockerignore
+
+# Add custom ignores after this line to be preserved during automated updates
