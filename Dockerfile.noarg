@@ -1,5 +1,5 @@
 FROM docker.io/library/gradle:8.10.1-jdk21-alpine@sha256:1f6bb163b0ec9db9e5ad8d2e5b24abf78eac45167e729a5afcf77d806551d949 AS jdk
 
-FROM docker.io/library/eclipse-temurin:21.0.4_7-jre-alpine@sha256:3f716d52e4045433e94a28d029c93d3c23179822a5d40b1c82b63aedd67c5081 AS jre
+FROM docker.io/library/eclipse-temurin:21.0.4_7-jre-alpine@sha256:8cc1202a100e72f6e91bf05ab274b373a5def789ab6d9e3e293a61236662ac27 AS jre
 
 FROM docker.io/library/traefik:1.7.29@sha256:104e0d832ae7a26f56d8f22c92df8a94cb4fbbbb2a6a4f50a710434c40145847 AS traefik
