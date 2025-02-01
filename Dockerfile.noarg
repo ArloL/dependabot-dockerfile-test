@@ -2,4 +2,4 @@ FROM docker.io/library/gradle:8.12.0-jdk21-alpine@sha256:8258de2148f046a9ce56434
 
 FROM docker.io/library/eclipse-temurin:23.0.1_11-jre-alpine@sha256:623a424ca41d6c4b78110af3a27e9efce9de40dacb2ee5a9f58c397c79a8e01f AS jre
 
-FROM docker.io/library/traefik:3.2.3@sha256:efb87236c8c92599bcd3a67a7a8a55e0f255665f4719722bf398935aa9b92270 AS traefik
+FROM docker.io/library/traefik:3.3.3@sha256:f1fdee7fda041872cff24e36a08f45ca53f006ded88f743a8e30e3d87ca52b48 AS traefik
