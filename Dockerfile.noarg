@@ -1,4 +1,4 @@
-FROM docker.io/library/gradle:8.14.0-jdk21-alpine@sha256:98fe25d8c7cc859c48f1e76165e2def2436b66bd5b37935aa9895cb4807d802d AS jdk
+FROM docker.io/library/gradle:8.14.1-jdk21-alpine@sha256:d5df71ed925e306c6d24d928bc6f3ee3c7a759bbc6e926bd4eb97299f5022711 AS jdk
 
 FROM docker.io/library/eclipse-temurin:24.0.1_9-jre-alpine@sha256:dbc9b392f33b2aca2c3d47de4534f3453e75d3b6dd27e08a555a47369be9b49c AS jre
 
