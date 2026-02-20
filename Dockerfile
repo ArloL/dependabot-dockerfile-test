@@ -3,4 +3,4 @@ FROM $DOCKERHUB_REGISTRY/library/gradle:9.2.1-jdk21-alpine@sha256:0db930c40f5808
 
 FROM $DOCKERHUB_REGISTRY/library/eclipse-temurin:21.0.4_7-jre-alpine@sha256:3f716d52e4045433e94a28d029c93d3c23179822a5d40b1c82b63aedd67c5081 AS jre
 
-FROM $DOCKERHUB_REGISTRY/library/traefik:v3.6.6@sha256:82d3d16dde0474a51fef00b28de143d48b67f7a27453224d5e7b5aaefff26a97 AS traefik
+FROM $DOCKERHUB_REGISTRY/library/traefik:v3.6.8@sha256:90099f8948c828ecf0ababd711a4359a2443eba12261c1df2f548a3b1d815938 AS traefik
